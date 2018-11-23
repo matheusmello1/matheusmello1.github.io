@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulario - Aula 6</title>
+	<title>Formulário - Google Solino</title>
 	<meta charset="utf-8">
 </head>
 <body>
 
-<form action = "https://www.google.com.br/search?" method="get">
-	Pesquisar <input type="text" name="q">
-	<input type="submit" name="botaoP" value="Pesquisar"> 
-	<input type="reset" name="botaoL" value="Limpar">
-</form>
-
+	<form action="https://www.google.com.br/search?" method="get">
+		Pesquisar: <input type="search" name="q" required>
+		Email: <input type="email" name="email">
+		Numero: <input type="number" name="numero" min="0" max="100" step="2">
+		Range: <input type="range" name="range" min="0" max="10">
+		Data: <input type="datetime" name="data">
+		Cor: <input type="color" name="cor">
+		<input type="submit" name="enviar" value="Enviar">
+		<input type="reset" name="limpar" value="Limpar">
+		
+	</form>
 
 </body>
 </html>
