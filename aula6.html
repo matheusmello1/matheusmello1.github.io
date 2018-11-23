@@ -1,20 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulário - Google Solino</title>
+	<title>Formulário - Matheus</title>
 	<meta charset="utf-8">
 </head>
 <body>
 
 	<form action="https://www.google.com.br/search?" method="get">
-		Pesquisar: <input type="search" name="q" required>
-		Email: <input type="email" name="email">
-		Numero: <input type="number" name="numero" min="0" max="100" step="2">
-		Range: <input type="range" name="range" min="0" max="10">
-		Data: <input type="datetime" name="data">
-		Cor: <input type="color" name="cor">
-		<input type="submit" name="enviar" value="Enviar">
-		<input type="reset" name="limpar" value="Limpar">
+		<fieldset>
+			<legend>Formulario Teste</legend>
+			<label for="q">Pesquisar: </label>
+			<input type="search" name="q" required pattern ="(?=.*\d)(?=.*[a-z])"> <br><br>
+			<label for="email">Email: </label>
+			<input type="email" name="email" autocomplete="on"> <br><br>
+			<label for="numero">Numero: </label>
+			<input type="number" name="numero" min="0" max="100" step="2"> <br><br>
+			<label for="range">Range: </label>
+			<input type="range" name="range" min="0" max="10"> <br><br>
+			<label for="data">Data: </label>
+			<input type="datetime-local" name="data"><br><br>
+			<label for="cor">Cor: </label> 
+			<input type="color" name="cor"><br><br>
+			<label for="areatexto">Digite um Texto: </label>
+			<textarea rows="10" cols="50" spellcheck="true"></textarea>
+			<input type="image" height="30" width="30" name="imagem" src="images/lupa.png">
+			<input type="reset" name="limpar" value="Limpar">
+		</fieldset>
+
+		<br><br>
+
+		<fieldset>
+			<legend>Campos de Seleção</legend>
+
+			<h5>Você deseja trabalhar como Webmaster?</h5>
+			<input type="radio" name="radiogroup" value="Sim">Sim
+			<br>
+			<input type="radio" name="radiogroup" value="Nao">Não
+			<br>
+			<input type="radio" name="radiogroup" value="Talvez">Talvez
+			<br>
+			<input type="radio" name="radiogroup" value="Quem Sabe">Quem Sabe
+
+			<h5>O que voce deseja aprender?</h5>
+			<input type="checkbox" name="checkboxgroup" value="CSS">CSS
+			<br>
+			<input type="checkbox" name="checkboxgroup" value="HTML">HTML
+			<br>
+			<input type="checkbox" name="checkboxgroup" value="Java">JS
+			<br>
+			<input type="checkbox" name="checkboxgroup" value="PHP">PHP
+		</fieldset>
+		
+		<br><br>
+
+		<fieldset>
+			<legend>Menu DropDown e Caixa de Lista</legend>
+
+			<select>
+				<optgroup label="Linguagens para WEB">
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="JS">JS</option>
+					<option value="PHP">PHP</option>
+				</optgroup>
+				<optgroup label="Linguagens para Desktop">
+					<option value="C">C</option>
+					<option value="C++">C++</option>
+					<option value="JAVA">JAVA</option>
+				</optgroup>
+			</select>
+		
+			<br><br>
+
+			<select size="7" multiple="multiple">
+				<optgroup label="Linguagens para WEB">
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="JS">JS</option>
+					<option value="PHP">PHP</option>
+				</optgroup>
+				<optgroup label="Linguagens para Desktop">
+					<option value="C">C</option>
+					<option value="C++">C++</option>
+					<option value="JAVA">JAVA</option>
+				</optgroup>
+			</select>
+
+		</fieldset>
 		
 	</form>
 
