@@ -1,0 +1,57 @@
+
+ul{
+margin: 1;
+padding: 0;
+list-style: none;
+width: 150px;
+float: left;
+}
+
+h2 {
+color: white;
+background-color: gray;
+font-size: 25px;
+padding: 6px;
+margin: 0px;
+}
+
+h4{
+	color: white;
+	background-color: gray;
+	font-size: 15px;
+	padding: 3px;
+	display: inline;
+	position: absolute;
+	left: 0;
+	width: 100%;
+
+}
+h3{
+	color: black;
+	font-style: bold;
+}
+
+article {
+border-left: 2px solid black;
+margin-left: 155px;
+padding: 20px;
+height: 320px;
+}
+
+ul li a{
+ display: block;
+ text-decoration: none;
+ color: black;
+ background: #f2f2f2;
+ padding: 15px;
+ border: 1px solid #ccc;
+ font-size: 15px;
+ font-family: 'Noto Sans TC', sans-serif;
+ text-align: left;
+ margin-top: 3px;
+ }
+ ul li a:hover{
+   text-decoration:underline;
+   font-weight: bold;
+   background: #ccc;
+ }
