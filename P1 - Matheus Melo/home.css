@@ -1,0 +1,281 @@
+.espaçamento{
+  width: 90%;
+  margin-left: 5%;
+}
+
+a{
+  color: black;
+}
+.headerimg, .listameio, .listadireita{
+  display: inline-block;
+}
+
+.listameio ul li, .listadireita ul li{
+  display: inline;
+}
+
+
+.headerimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.listadireita{
+  float: right;
+}
+
+.listadireita li{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+.listameio{
+  margin-left: 200px;
+}
+
+.listameio li{
+  border: 2px solid black;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.listameio a{
+  text-decoration: none;
+}
+
+.pesquisa{
+  float: right;
+}
+
+.adv{
+  float: right;
+}
+
+button{
+  box-shadow: 2px 2px 2px;
+}
+
+.pesquisa button, .pesquisa input{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+article img{
+  width: 100px;
+  height: 100px;
+}
+
+
+section, aside{
+  display: inline-block;
+}
+
+section{
+  width: 26%
+}
+
+.meio{
+  width: 47%;
+}
+
+.direito{
+  float: right;
+  width: 26%;
+}
+
+section{
+  float: left;
+}
+
+section img{
+  width: 320px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.listasection1 ul{
+  margin-left: -30px;
+}
+
+.listasection1 li{
+  border: 2px solid black;
+  padding-left: 5px;
+  list-style: none;
+  width: 300px;
+  margin-top: 10px;
+}
+
+
+.listasection1 a{
+  text-decoration: none;
+}
+
+.listasection2{
+  border: 2px solid black;
+  background-color: rgba(198,90,90,1.0);
+  width: 320px;
+}
+
+.listasection2 ul{
+  margin-left: -30px;
+}
+
+.listasection2 li{
+  list-style: none;
+}
+
+.listasection2 a{
+  text-decoration: none;
+}
+
+.whatsnew{
+  border: 2px solid black;
+  background-color: rgba(198,90,90,1.0);
+  height: 300px;
+}
+
+.whatsnewleft, .whatsnewright{
+  display: inline-block;
+}
+
+.whatsnewleft{
+  width: 20%;
+  padding-left: 20px;
+}
+
+.whatsnewright{
+  width: 70%;
+}
+
+.novidades{
+  float: right;
+}
+
+.whatsnewright a{
+  font-weight: bold;
+}
+
+.whatsnewleft p{
+  font-style: italic;
+}
+
+.novidades span{
+  border: 1px solid black;
+}
+
+.newsticker{
+  border: 2px solid black;
+  background-color: rgba(198,90,90,1.0);
+  margin-top: 10px;
+}
+
+.newstickerleft, .newstickerright{
+  display: inline-block;
+}
+
+.newstickerleft{
+  width: 78%;
+  padding-left: 20px;
+}
+
+.newstickerright{
+  width: 18%;
+}
+
+.newstickerright a{
+  display: block;
+  border: 1px solid black;
+  width: 10%;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.calendar{
+  border: 2px solid black;
+  background-color: rgba(198,90,90,1.0);
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.calendarcima h2, .calendarcima p{
+  display: inline;
+}
+
+.calendarcima{
+  padding-top: 20px;
+}
+.calendarcima a{
+  float: right;
+  margin-right: 20px;
+}
+
+.img1, .img2, .img3{
+  float: right;
+}
+
+.img1 img{
+  width:300px;
+  height:290px;
+  margin-top: 5px;
+}
+
+.img2{
+  border: 2px solid black;
+  width: 300px;
+}
+
+.img2 img, .img2 h2{
+  display: inline;
+}
+
+.img2 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+.img2 h2, .img3 h2{
+  float: right;
+  padding-right: 20px;
+}
+
+.img3{
+  margin-top: 25px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.img3 img, .img3 h2{
+  display: inline;
+}
+
+.img3 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+footer{
+  border-top: 2px solid black;
+  margin-top: 30px;
+}
+
+footer ul, footer a, footer p{
+  display: inline;
+}
+
+footer ul li{
+  display: inline;
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+footer p{
+  float: right;
+}
+
+footer ul{
+  padding-right: 400px;
+}
